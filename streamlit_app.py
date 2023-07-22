@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.write('Hello world!')
+st.write('Projet 5')
 
-title = st.text_input('Movie title', 'Life of Brian')
-st.write('The current movie title is', title)
+question = st.text_input('Enter Your Question', '')
+st.write('Your Question is', question)
