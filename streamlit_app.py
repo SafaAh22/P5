@@ -1,4 +1,5 @@
 import streamlit as st
+import joblib
 
 st.write('Projet 5')
 
