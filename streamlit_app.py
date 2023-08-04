@@ -20,6 +20,6 @@ with st.form("my_form"):
 
     # Predict the tags
     predicted_tags = model.predict(processed_question)
-    st.write('question', question)
+    st.write('question', question, 'predicted_tags', predicted_tags)
 
 st.write("Outside the form")
