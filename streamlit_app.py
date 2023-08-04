@@ -28,8 +28,8 @@ with st.form("my_form"):
     predicted_values  = model.predict(processed_question)
 
     # Translate numerical predictions into tag names
-    predicted_tags = [tag_names[i] for i in range(len(predicted_values[0])) if predicted_values[0][i] == 1]
+    # predicted_tags = [tag_names[i] for i in range(len(predicted_values[0])) if predicted_values[0][i] == 1]
 
-    st.write('predicted_tags', predicted_tags)
+    st.write('predicted_tags', predicted_values)
 
 st.write("Outside the form")
