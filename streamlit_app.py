@@ -14,6 +14,7 @@ with st.form("my_form"):
    # Every form must have a submit button.
    submitted = st.form_submit_button("Submit")
    if submitted:
+       
        st.write('question', question)
 
 st.write("Outside the form")
