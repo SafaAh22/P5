@@ -29,6 +29,4 @@ with st.form("my_form"):
     predicted_tags = multilab_bin.inverse_transform(predicted_values)
     st.write('predicted_tags', predicted_tags)
 
-    st.write('multilab_bin', multilab_bin.classes_)
-
 st.write("Outside the form")
